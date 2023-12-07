@@ -78,7 +78,9 @@ input.split('\n').forEach((line) =>
                     num: number,
                     pos: position,
                 });
+
                 cur = '';
+                break;
             }
         }
     }
